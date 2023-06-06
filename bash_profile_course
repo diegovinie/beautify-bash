@@ -17,4 +17,4 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 # '\u' adds the name of the current user to the prompt
 # '\$(__git_ps1)' adds git-related stuff
 # '\W' adds the name of the current directory
-export PS1="$green\u$yellow\$(__git_ps1)$cyan \W $ $reset"
+export PS1="\n$green\u$yellow\$(__git_ps1)$cyan \W \n$ $reset"
